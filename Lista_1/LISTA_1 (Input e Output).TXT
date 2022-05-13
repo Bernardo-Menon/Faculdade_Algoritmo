@@ -1,0 +1,21 @@
+Lista de Exercícios – Entrada e Saída 
+
+Desenvolver algoritmos para os problemas abaixo: 
+    1. Efetuar a soma dos números 5 e 10 e imprimir o resultado.
+
+    2. Efetuar a soma de três números digitados pelo usuário e imprimir o resultado.
+
+    3. Efetuar a multiplicação de dois números digitados pelo usuário e imprimir o resultado. 
+
+    4. Calcular o aumento que será dado a um funcionário, obtendo do usuário as seguintes informações:  
+    salário atual e a porcentagem de aumento. Apresentar o  novo valor do salário e o valor do aumento. 
+    
+    5. Converter uma quantidade de horas digitadas pelo usuário em minutos. Informe o resultado em minutos. 
+    
+    6. Calcular o salário líquido do funcionário sabendo que este é constituído pelo salário bruto mais o valor das horas extras subtraindo 8% de INSS do total.  
+    Serão lidos nesse problema o salário bruto, o valor das horas extras e o número de horas extras. Apresentar ao final o salário líquido. 
+    
+    7. Efetuar a leitura do número de quilowatts consumidos e calcular o valor a ser pago de energia elétrica, sabendo-se que o valor a pagar por quilowatt é de 0,12.
+    Apresentar o valor total a ser pago pelo usuário acrescido de 18% de ICMS. 
+    
+    8. Calcular a média de combustível gasto pelo usuário, sendo informado a quantidade de quilômetros rodados e a quantidade de combustível consumido.
