@@ -79,6 +79,7 @@ while ganhador not in jogadores:
                     posicoes_tabuleiro['C1'] == simbolo2 and posicoes_tabuleiro['B2'] == simbolo2 and posicoes_tabuleiro['A3'] == simbolo2):
                 ganhador = jogador2
 
+# Resultado da partida
 if ganhador == 'Empate':
     print('A partida Empatou!')
 else:
