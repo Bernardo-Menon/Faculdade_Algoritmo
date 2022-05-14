@@ -12,8 +12,8 @@ def dias_vividos(d, m, a):
     mes_em_dias_ano_nascimento = (12 - m) * 30 # meses do ano - mês de nascimento = meses completos vividos no ano de nascimento (Ex.: Nascido no mês 10 (12-10=2), viveu o mês 11 e 12 por completo no ano de nascimento)
     mes_em_dias_ano_atual = (today.month - 1) * 30 # Calcular quantos meses viveu no ano atual sem considera o mês atual (Que não foi completo ainda) 
     dias_no_mes_nascimento = (30 - d) # Calcular quantos dias viveu no mês atual 
-    dias_vividos = (ano_em_dias, mes_em_dias_ano_nascimento, mes_em_dias_ano_atual, dias_no_mes_nascimento, today.day,) # Lista com todos os cálculos
-    return sum(dias_vividos) # Soma de todos os itens da lista
+    dias_vividos = [ano_em_dias, mes_em_dias_ano_nascimento, mes_em_dias_ano_atual, dias_no_mes_nascimento, today.day] # Tupla com todos os cálculos
+    return sum(dias_vividos) # Soma de todos os itens da Tupla
 
 today = date.today() # Definir data atual
 
