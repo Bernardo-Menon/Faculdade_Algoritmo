@@ -3,9 +3,11 @@
 
 from datetime import date
 
-# Fazendo de forma genérica. Sem tratativa de ano bissexto e dias do mês
-# ano = 365 dias
-# mês = 30 dias  
+''' 
+Fazendo de forma genérica. Sem tratativa de ano bissexto e dias do mês
+    ano = 365 dias
+    mês = 30 dias  
+'''
 
 def dias_vividos(d, m, a):
     ano_em_dias = ((today.year - a) - 1) * 365 # Ano de hoje - ano do nascimento = idade (Retirado 1 ano, pois o ano atual calcularemos os dias somente até a data atual)

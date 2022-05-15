@@ -1,10 +1,12 @@
-# Lista 5 - Funções
-# Exercício 2 - Faça uma função que recebe a média final de um aluno por parâmetro e retorna o seu conceito, conforme a tabela abaixo: 
-#    Conceito    Nota 
-#    D           De 0 a 49
-#    C           De 50 a 69
-#    B           De 70 a 89
-#    A           De 90 a 100
+'''
+Lista 5 - Funções
+Exercício 2 - Faça uma função que recebe a média final de um aluno por parâmetro e retorna o seu conceito, conforme a tabela abaixo: 
+    Conceito    Nota 
+    D           De 0 a 49
+    C           De 50 a 69
+    B           De 70 a 89
+    A           De 90 a 100
+'''
 
 def calculo_conceito (media):
     if media >= 90:
