@@ -35,6 +35,27 @@ O programa deve pedir o número de horas trabalhadas como entrada e deve dar o s
 
 12. A taxa de juros aplicada em fundos depositados em um banco é determinada pelo tempo em que estes ficam depositados.
 Para um banco em particular, a seguinte tabela é usada: 
+
+| Column1 | This is a long column name | Column3              |                   |
+|--------:|----------------------------|:--------------------:|:------------------|
+|         |                            |                      |                   |
+|         |                            |                      | a value           |
+|         |                            |                      |                   |
+|         |                            | This is a long value | but why?          |
+|         |                            |                      |                   |
+|         |                            |                      | Here is something |
+|         |                            |                      |                   |
+
+| Taxa de Juros | Tempo em Depósito                             |
+|---------------|-----------------------------------------------|
+| 0,95          | Maior ou igual a 5 anos                       |
+| 0,90          | Menor que 5 anos, mas maior ou igual a 4 anos |
+
+| Taxa de Juros | Tempo em Depósito |
+|--|--|
+| 0,95 | Maior ou igual a 5 anos |
+| 0,90 | Menor que 5 anos, mas maior ou igual a 4 anos |
+
     Taxa de juro        Tempo em depósito 
         0,95            Maior ou igual a 5 anos
         0,90            Menor que 5 anos, mas maior ou igual a 4 anos
