@@ -5,6 +5,9 @@ Desenvolver algoritmos para resolver os problemas abaixo:
 1. Faça uma função que recebe a idade de uma pessoa em anos, meses e dias e retorna essa idade expressa em dias. 
 
 2. Faça uma função que recebe a média final de um aluno por parâmetro e retorna o seu conceito, conforme a tabela abaixo: 
+| Conceito | Nota      |
+|----------|-----------|
+|D|De 0 a 49|
     Conceito    Nota 
     D           De 0 a 49
     C           De 50 a 69
