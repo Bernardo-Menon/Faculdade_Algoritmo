@@ -1,4 +1,5 @@
 Lista de Exercícios – Desvios Condicionais
+=====================
  
 Desenvolver algoritmos para os problemas abaixo:
  
@@ -36,45 +37,29 @@ O programa deve pedir o número de horas trabalhadas como entrada e deve dar o s
 12. A taxa de juros aplicada em fundos depositados em um banco é determinada pelo tempo em que estes ficam depositados.
 Para um banco em particular, a seguinte tabela é usada: 
 
-| Column1 | This is a long column name | Column3              |                   |
-|--------:|----------------------------|:--------------------:|:------------------|
-|         |                            |                      |                   |
-|         |                            |                      | a value           |
-|         |                            |                      |                   |
-|         |                            | This is a long value | but why?          |
-|         |                            |                      |                   |
-|         |                            |                      | Here is something |
-|         |                            |                      |                   |
-
 | Taxa de Juros | Tempo em Depósito                             |
 |---------------|-----------------------------------------------|
 | 0,95          | Maior ou igual a 5 anos                       |
 | 0,90          | Menor que 5 anos, mas maior ou igual a 4 anos |
+| 0,85          | Menor que 4 anos, mas maior ou igual a 3 anos |
+| 0,75          | Menor que 3 anos, mas maior ou igual a 2 anos |
+| 0,65          | Menor que 2 anos, mas maior ou igual a 1 ano  |
+| 0,55          | Menor que 1 ano                               |
 
-| Taxa de Juros | Tempo em Depósito |
-|--|--|
-| 0,95 | Maior ou igual a 5 anos |
-| 0,90 | Menor que 5 anos, mas maior ou igual a 4 anos |
-
-    Taxa de juro        Tempo em depósito 
-        0,95            Maior ou igual a 5 anos
-        0,90            Menor que 5 anos, mas maior ou igual a 4 anos
-        0,85            Menor que 4 anos, mas maior ou igual a 3 anos
-        0,75            Menor que 3 anos, mas maior ou igual a 2 anos
-        0,65            Menor que 2 anos, mas maior ou igual a 1 ano
-        0,55            Menor que 1 ano
 Usando esta informação, escreva um programa que receba o tempo em que os fundos foram mantidos em depósito e informe a taxa de juros correspondente. 
 
 13. Baseado  no  ano  e  peso  do  modelo  de  um  automóvel,  o  estado  de  Nova  Jersey determina a sua classe de peso e taxa de registro usando a seguinte tabela: 
-    Ano do modelo   Peso                Classe      Taxa de registro
-    1970 ou antes   Menos de 1200 kg    1           16,50
-                    de 1200 a 1700 kg   2           25,50 
-                    Mais de 1700 kg     3           46,50
-    1971 a 1979     Menos de 1200 kg    4           27,00
-                    de 1200 a 1700 kg   5           30,50
-                    Mais de 1700 kg     6           52,50
-    1980 ou depois  Menos de 1600 kg    7           19,50 
-                    1600 kg ou mais     8           55,50
+
+| Ano do modelo  | Peso              | Classe | Taxa de registro |
+|----------------|-------------------|--------|------------------|
+| 1970 ou antes  | Menos de 1200 kg  | 1      | 16,50            |
+|                | de 1200 a 1700 kg | 2      | 25,50            |
+|                | Mais de 1700 kg   | 3      | 46,50            |
+| 1971 a 1979    | Menos de 1200 kg  | 4      | 27,00            |
+|                | de 1200 a 1700 kg | 5      | 30,50            |
+|                | Mais de 1700 kg   | 6      | 52,50            |
+| 1980 ou depois | Menos de 1600 kg  | 7      | 19,50            |
+|                | 1600 kg ou mais   | 8      | 55,50            |
 
 Usando esta informação, escreva um programa que receba o ano e o peso do modelo de um automóvel e calcule e imprima a classe de peso e a taxa de registro para o carro. 
 
@@ -86,20 +71,23 @@ O cálculo da média deve ser feito com peso 3 para a primeira prova, 5 para a s
 
 16. Desenvolva um algoritmo que pergunte um código e de acordo com o valor digitado seja apresentado o cargo correspondente.
 Caso o usuário digite um código que não esteja na tabela, mostrar uma mensagem de código inválido. Utilize a tabela abaixo: 
-    Código  Cargo
-    101     Vendedor
-    102     Atendente
-    103     Auxiliar Técnico
-    104     Assistente
-    105     Coordenador de Grupo
-    106     Gerente
+
+| Código | Cargo                |
+|--------|----------------------|
+| 102    | Atendente            |
+| 103    | Auxiliar Técnico     |
+| 104    | Assistente           |
+| 105    | Coordenador de Grupo |
+| 106    | Gerente              |
 
 17. Uma encomenda de unidades de disco contém unidades marcadas com um código de 1 a 4, que indica o tipo seguinte:
-    Código  Tipo da unidade
-    1       CD-ROM (700MB)
-    2       DVD-ROM (4.7GB)
-    3       DVD-9 (8.54 GB)
-    4       Blu-Ray (25 GB)
+
+| Código | Tipo da unidade |
+|--------|-----------------|
+| 1      | CD-ROM (700MB)  |
+| 2      | DVD-ROM (4.7GB) |
+| 3      | DVD-9 (8.54 GB) |
+| 4      | Blu-Ray (25 GB) |
 
 Escreva um programa que receba o número de um código como entrada e, baseado no valor digitado, informe o tipo correto de unidade de disco. 
 
