@@ -1,5 +1,3 @@
 # Faculdade_Algoritmo
-Teste
-Teste
-teeeeeste
-ggggg
+
+Lista de Exercícios de Algoritmo Resolvidos
